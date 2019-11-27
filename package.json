@@ -1,7 +1,20 @@
 {
-  "name": "TD2",
+  "name": "Module OW",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "M <maxime.rivierre@uxen.fr>",
-  "license": "MIT"
+  "description": "Connect to OpenWheater API",
+  "author": "RivierreMaxime <maximerivir@gmail.com>",
+  "license": "MIT",
+  "repository ": {
+    "type ": "git",
+    "url ": "git@github.com:RivierreMaxime/module-ow.git"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "dependencies": {
+    "http": "^0.0.0",
+    "isomorphic-fetch": "^2.2.1",
+    "url": "^0.11.0"
+  }
 }
