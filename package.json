@@ -1,8 +1,8 @@
 {
   "name": "Module-OW",
   "version": "1.0.0",
-  "main": "index.js",
-  "description": "Connect to OpenWheater API",
+  "main": "OpenWeatherMap.js",
+  "description": "Connect to OpenWeatherMap API",
   "author": "RivierreMaxime <maximerivir@gmail.com>",
   "license": "MIT",
   "repository ": {
@@ -17,5 +17,8 @@
     "http-proxy-agent": "^2.1.0",
     "isomorphic-fetch": "^2.2.1",
     "url": "^0.11.0"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0"
   }
 }
